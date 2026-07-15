@@ -1,0 +1,155 @@
+.log-screen {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.log-screen-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.log-screen-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+}
+
+.panel-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.field input,
+.field select,
+.field textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+  outline: none;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: #6366f1;
+}
+
+.sentiment-options {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.sentiment-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ai-suggestions {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.ai-suggestions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ai-suggestions li {
+  color: #4f46e5;
+  padding: 2px 0;
+}
+
+.chat-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  font-size: 13px;
+  color: #374151;
+  background: #f9fafb;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-height: 300px;
+}
+
+.chat-bubble {
+  margin-bottom: 8px;
+}
+
+.chat-bubble.user {
+  text-align: right;
+  color: #111827;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input-row input {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.log-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  margin-top: 14px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
